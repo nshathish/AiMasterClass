@@ -1,0 +1,44 @@
+# .NET build outputs
+bin/
+obj/
+artifacts/
+
+# Visual Studio and per-user settings
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+serviceDependencies.local.json
+
+# Environment-specific configuration (retain the shared defaults)
+appsettings.*.json
+!appsettings.json
+local.settings.json
+
+# Test and coverage outputs
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# NuGet packages and generated packages
+packages/
+*.nupkg
+*.snupkg
+
+# Local Azure storage emulator data
+__azurite_db*.json
+__blobstorage__/
+__queuestorage__/
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# local instructions and documentation
+.docs/
+.tasks/
